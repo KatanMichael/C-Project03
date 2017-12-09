@@ -19,6 +19,9 @@ Triangle::Triangle(const Point & x, const Point & y, const Point & z)
 
 Triangle::~Triangle()
 {
+	delete this->_x;
+	delete this->_y;
+	delete this->_z;
 }
 
 double Triangle::getArea()

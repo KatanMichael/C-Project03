@@ -11,7 +11,7 @@ private:
 public:
 
 	virtual double getArea();
-	virtual double getPerin();
+	virtual double getPerim();
 
 
 };

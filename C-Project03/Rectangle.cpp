@@ -21,6 +21,12 @@ Rectalngle::Rectalngle(const Point &x, const Point &y)
 
 }
 
+Rectalngle::~Rectalngle()
+{
+	delete this->_x;
+	delete this->_y;
+}
+
 double Rectalngle::getArea()
 {
 	double area;

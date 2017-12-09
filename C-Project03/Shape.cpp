@@ -6,7 +6,7 @@ double Shape::getArea()
 	return 0.0;
 }
 
-double Shape::getPerin()
+double Shape::getPerim()
 {
 	return 0.0;
 }

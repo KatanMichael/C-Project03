@@ -18,7 +18,7 @@ private:
 public:
 
 	Rectalngle(const Point&, const Point&);
-
+	~Rectalngle();
 	virtual double getArea();
 	virtual double getPerim();
 
