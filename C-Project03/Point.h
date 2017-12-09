@@ -1,4 +1,5 @@
-
+#ifndef Point_H
+#define Point_H
 
 class Point
 {
@@ -11,8 +12,8 @@ private:
 public:
 	
 	Point(int, int);
+	Point(const Point&);
 	~Point();
-
 	int getX() const;
 	int getY() const;
 
@@ -24,3 +25,5 @@ public:
 
 
 };
+
+#endif
